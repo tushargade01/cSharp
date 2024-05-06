@@ -21,7 +21,8 @@ namespace stringBuild{
       System.Console.WriteLine(sd1.ToString());
       
       sd1.Replace(" ","_");
-      System.Console.WriteLine(sd1.ToString());
+      System.Console.WriteLine(sd1.ToString()); 
+      //sd1.Length;
     }
   }
 }
