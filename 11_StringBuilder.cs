@@ -16,6 +16,12 @@ namespace stringBuild{
       
       StringBuilder sd1 = new StringBuilder("this is sd1.");
       System.Console.WriteLine(sd1.ToString());
+      
+      sd1.Remove(5,2);
+      System.Console.WriteLine(sd1.ToString());
+      
+      sd1.Replace(" ","_");
+      System.Console.WriteLine(sd1.ToString());
     }
   }
 }
